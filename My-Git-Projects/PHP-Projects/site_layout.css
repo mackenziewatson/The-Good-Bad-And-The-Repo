@@ -1,0 +1,71 @@
+/* 
+    Document   : site_layout
+    Created on : Apr 16, 2012, 1:12:24 AM
+    Author     : Thrasher270
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+
+#wrap {
+    width: 960px;
+    margin:0 auto;
+   
+}
+
+td {
+    
+    padding:5px 0;
+    width:100px;
+    background:#C4C4C4;
+    border-radius: 15px;
+}
+td a{
+    text-align: center;
+    text-decoration:none;
+    border-radius: 7px;
+}
+td a:hover {
+    background: #578029;
+    color: #000;
+}
+td a:link{
+    color: #000;
+}
+td a:visited{
+    color: #000;
+}
+body {
+    text-align: center;
+    background-color: #000000;
+}
+h2 {
+    text-align:center;
+    color: #fff;
+}
+
+img {
+    border-radius: 7px;
+}
+
+ul  li{
+    list-style-type:none; 
+}
+
+#searchform {
+    text-align: right;
+}
+
+#result {
+    text-align: left;
+    color: #000;
+}
